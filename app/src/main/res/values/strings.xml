@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EnviarDatosEntreApps</string>
+    <string name="camara">ABRIR CAMARA</string>
+    <string name="google">IR A GOOGLE</string>
+    <string name="abrir_calculadora">ABRIR CALCULADORA</string>
+    <string name="crear_alarma">CREAR ALARMA</string>
+</resources>

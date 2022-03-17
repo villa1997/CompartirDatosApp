@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#804fc4"
+    tools:context=".MainActivity"
+    android:forceDarkAllowed="false">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="4"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/btnIrGoogle"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/google"
+            android:background="#ffffff"
+            android:textSize="10sp"
+            android:layout_margin="5sp"/>
+
+        <Button
+            android:id="@+id/btnAbrirCamara"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/camara"
+            android:background="#ffffff"
+            android:textSize="10sp"
+            android:layout_margin="5sp"
+            android:onClick="AbrirCamara"/>
+
+        <Button
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/abrir_calculadora"
+            android:background="#ffffff"
+            android:textSize="10sp"
+            android:layout_margin="5sp"
+            android:onClick="AbrirCalculadora"/>
+
+        <Button
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="@string/crear_alarma"
+            android:background="#ffffff"
+            android:textSize="10sp"
+            android:layout_margin="5sp"
+            android:onClick="CrearAlarma"/>
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
